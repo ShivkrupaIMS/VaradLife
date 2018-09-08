@@ -1,0 +1,67 @@
+﻿namespace Serene.Masters {
+    export interface CustomersForm {
+        CustomersName: Serenity.StringEditor;
+        CustomerTypeId: Serenity.LookupEditor;
+        GstNo: Serenity.StringEditor;
+        GstRegistrationTypeId: Serenity.LookupEditor;
+        Phone: Serenity.StringEditor;
+        Fax: Serenity.StringEditor;
+        Email: Serenity.StringEditor;
+        Address: Serenity.StringEditor;
+        CountryId: Serenity.LookupEditor;
+        StateId: Serenity.LookupEditor;
+        PinCode: Serenity.StringEditor;
+        PanNo: Serenity.StringEditor;
+        Website: Serenity.StringEditor;
+        ContactPerson: Serenity.StringEditor;
+        MobileNo: Serenity.StringEditor;
+        CinNo: Serenity.StringEditor;
+        Branch: Serenity.StringEditor;
+        IsActive: Serenity.BooleanEditor;
+        OpeningBalance: Serenity.DecimalEditor;
+        LicenseList: CustomersLicenseDetailsEditor;
+    }
+
+    export class CustomersForm extends Serenity.PrefixedContext {
+        static formKey = 'Masters.Customers';
+        private static init: boolean;
+
+        constructor(prefix: string) {
+            super(prefix);
+
+            if (!CustomersForm.init)  {
+                CustomersForm.init = true;
+
+                var s = Serenity;
+                var w0 = s.StringEditor;
+                var w1 = s.LookupEditor;
+                var w2 = s.BooleanEditor;
+                var w3 = s.DecimalEditor;
+                var w4 = CustomersLicenseDetailsEditor;
+
+                Q.initFormType(CustomersForm, [
+                    'CustomersName', w0,
+                    'CustomerTypeId', w1,
+                    'GstNo', w0,
+                    'GstRegistrationTypeId', w1,
+                    'Phone', w0,
+                    'Fax', w0,
+                    'Email', w0,
+                    'Address', w0,
+                    'CountryId', w1,
+                    'StateId', w1,
+                    'PinCode', w0,
+                    'PanNo', w0,
+                    'Website', w0,
+                    'ContactPerson', w0,
+                    'MobileNo', w0,
+                    'CinNo', w0,
+                    'Branch', w0,
+                    'IsActive', w2,
+                    'OpeningBalance', w3,
+                    'LicenseList', w4
+                ]);
+            }
+        }
+    }
+}

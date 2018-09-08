@@ -1,0 +1,23 @@
+﻿using Serenity.Navigation;
+using MyPages = Serene.Masters.Pages;
+
+[assembly: NavigationLink(int.MaxValue, "Masters/City", typeof(MyPages.CityController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Company", typeof(MyPages.CompanyController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Company Type", typeof(MyPages.CompanyTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Country", typeof(MyPages.CountryController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Gst Registration Type", typeof(MyPages.GstRegistrationTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/License Type", typeof(MyPages.LicenseTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/State", typeof(MyPages.StateController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Customers", typeof(MyPages.CustomersController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Customer Type", typeof(MyPages.CustomerTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Suppliers", typeof(MyPages.SuppliersController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Supplier Type", typeof(MyPages.SupplierTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Purchase Invoice", typeof(MyPages.PurchaseInvoiceController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Purchase Invoice Details", typeof(MyPages.PurchaseInvoiceDetailsController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Invoice Term", typeof(MyPages.InvoiceTermController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Invoice Status", typeof(MyPages.InvoiceStatusController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Product", typeof(MyPages.ProductController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Product Type", typeof(MyPages.ProductTypeController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Product Unit", typeof(MyPages.ProductUnitController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Hsnsac", typeof(MyPages.HsnsacController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Masters/Manufacturer", typeof(MyPages.ManufacturerController), icon: null)]

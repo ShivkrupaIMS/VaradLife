@@ -1,0 +1,196 @@
+{
+  "RootNamespace": "Serene",
+  "ServerTypings": {
+    "Assemblies": []
+  },
+  "Connections": [
+    {
+      "Key": "Masters",
+      "Tables": [
+        {
+          "Tablename": "dbo.City",
+          "Identifier": "City",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Company",
+          "Identifier": "Company",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.CompanyLicenseDetails",
+          "Identifier": "CompanyLicenseDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.CompanyType",
+          "Identifier": "CompanyType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Country",
+          "Identifier": "Country",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Customers",
+          "Identifier": "Customers",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.CustomersLicenseDetails",
+          "Identifier": "CustomersLicenseDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.CustomerType",
+          "Identifier": "CustomerType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.GSTRegistrationType",
+          "Identifier": "GstRegistrationType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.HSNSAC",
+          "Identifier": "Hsnsac",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.InvoiceStatus",
+          "Identifier": "InvoiceStatus",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.InvoiceTerm",
+          "Identifier": "InvoiceTerm",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.LicenseType",
+          "Identifier": "LicenseType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Manufacturer",
+          "Identifier": "Manufacturer",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Product",
+          "Identifier": "Product",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ProductDetails",
+          "Identifier": "ProductDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ProductLicenseDetails",
+          "Identifier": "ProductLicenseDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ProductType",
+          "Identifier": "ProductType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ProductUnit",
+          "Identifier": "ProductUnit",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.PurchaseInvoice",
+          "Identifier": "PurchaseInvoice",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.PurchaseInvoiceDetails",
+          "Identifier": "PurchaseInvoiceDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.State",
+          "Identifier": "State",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Suppliers",
+          "Identifier": "Suppliers",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.SuppliersLicenseDetails",
+          "Identifier": "SuppliersLicenseDetails",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.SupplierType",
+          "Identifier": "SupplierType",
+          "Module": "Masters",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    },
+    {
+      "Key": "Northwind",
+      "Tables": [
+        {
+          "Tablename": "dbo.Movie",
+          "Identifier": "Movie",
+          "Module": "Northwind",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.MovieCast",
+          "Identifier": "MovieCast",
+          "Module": "Northwind",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Person",
+          "Identifier": "Person",
+          "Module": "Northwind",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.ProductsNew",
+          "Identifier": "ProductsNew",
+          "Module": "Northwind",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
